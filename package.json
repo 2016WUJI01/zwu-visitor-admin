@@ -13,6 +13,7 @@
     "@types/node": "^17.0.41",
     "@vueuse/core": "^8.6.0",
     "axios": "^0.27.2",
+    "element-plus": "^2.2.5",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "pinia": "^2.0.14",
