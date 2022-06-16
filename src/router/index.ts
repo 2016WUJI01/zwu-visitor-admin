@@ -10,16 +10,6 @@ const routes: Array<RouteRecordRaw> = [
         },
         component: () => import('@/pages/index.vue'),
     },
-    {
-        path: '/test',
-        name: 'Test',
-        meta: {
-            title: '测试',
-            keepAlive: true,
-            requireAuto: false,
-        },
-        component: () => import('@/pages/test.vue'),
-    },
 ];
 
 const router = createRouter({
