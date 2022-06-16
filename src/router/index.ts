@@ -11,16 +11,6 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/pages/index.vue'),
     },
     {
-        path: '/vueUse',
-        name: 'VueUse',
-        meta: {
-            title: 'vueUse使用',
-            keepAlive: true,
-            requireAuto: false,
-        },
-        component: () => import('@/pages/vueUse.vue'),
-    },
-    {
         path: '/test',
         name: 'Test',
         meta: {

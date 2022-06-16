@@ -1,3 +1,5 @@
 # zwu-visitor-admin
 
-It use vue + ts + vite.
+It use  Vue3 + Typescript + Vite.
+
+It use axios/pinia/sass/vue-router/eslint/prettier.
