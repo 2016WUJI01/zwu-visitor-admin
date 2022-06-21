@@ -1,7 +1,15 @@
 <template>
-    <Reviewers></Reviewers><br />
-    <Applications></Applications><br />
-    <Departments></Departments>
+    <el-tabs type="border-card">
+        <el-tab-pane label="Reviewers">
+            <Reviewers></Reviewers>
+        </el-tab-pane>
+        <el-tab-pane label="Applications">
+            <Applications></Applications>
+        </el-tab-pane>
+        <el-tab-pane label="Departments">
+            <Departments></Departments>
+        </el-tab-pane>
+    </el-tabs>
 </template>
 
 <script lang="ts" setup>
