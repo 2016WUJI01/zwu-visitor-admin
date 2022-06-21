@@ -1,5 +1,4 @@
 <template>
-    <div class="tableName">Reviewer</div>
     <el-table :data="Reviewers" border style="width: 100%">
         <el-table-column prop="id" label="Id" />
         <el-table-column prop="departmentId" label="DepartmentId" />
